@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ajeeb Media House</title>
+        <title>AMH</title>
       </Head>
       <Hero />
     </>
