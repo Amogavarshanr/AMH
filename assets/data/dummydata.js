@@ -6,7 +6,7 @@ import { BiUser } from "react-icons/bi"
 export const home = [
   {
     icon: <AiOutlineCalendar size={25} />,
-    title: "10+ years of market experience",
+    title: "Faster and Efficient",
   },
   {
     icon: <TfiRulerPencil size={25} />,
@@ -14,7 +14,7 @@ export const home = [
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "100+ cuccessful cases in portfolio",
+    title: "Data Driven",
   },
   {
     icon: <BiUser size={25} />,
@@ -50,32 +50,26 @@ export const expertise = [
 export const testimonial = [
   {
     id: 1,
-    name: "Alexander Black",
+    name: "Prajwal",
     cover: "../images/e1.jpg",
-    post: "Seven consulting - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    post: "God of Bad Gaming-Content Creator",
+    desc: "These People are so Creative and Thoughtful that It's Always a Pleasure to Work with them.",
   },
   {
     id: 2,
-    name: "Diana Green",
+    name: "Ganesh",
     cover: "../images/e2.jpg",
-    post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+    post: "URStyle-Cloth shop",
+    desc: " like how organized and diligent the team is. Communication is great. Great reporting and evident improvements and results.",
   },
   {
     id: 3,
-    name: "Alexander Black",
+    name: "Rahul",
     cover: "../images/e3.jpg",
-    post: "Seven consulting - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    post: "RAW-06 Restaurant - CEO",
+    desc: "It has been a pleasure working with AMH Crew... so far! A very professional group with focus on getting results for me... I love it!",
   },
-  {
-    id: 4,
-    name: "Diana Green",
-    cover: "../images/e4.jpg",
-    post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
-  },
+  
 ]
 export const showcase = [
   {
@@ -118,106 +112,88 @@ export const showcase = [
 export const brand = [
   {
     id: 1,
-    cover: "../images/l1.svg",
+    cover: "../images/s1.jpg",
+    title:"Constant support",
+    img:"assets\\images\\explore.png",
   },
   {
     id: 2,
-    cover: "../images/l2.svg",
+    cover: "../images/s2.jpg",
+    title:" The ART Of Storytelling ",
+    img:"assets\\images\\explore.png",
   },
   {
     id: 3,
-    cover: "../images/l3.svg",
+    cover: "../images/e1.jpg",
+    title:"Advanced Techstack",
+    img:"assets\\images\\explore.png",
   },
   {
     id: 4,
-    cover: "../images/l4.svg",
+    cover: "../images/s4.jpg",
+    title:" Data-Driven Creativity",
+    img:"assets\\images\\explore.png",
   },
   {
     id: 5,
-    cover: "../images/l5.svg",
+    cover: "../images/s5.jpg",
+    title:"Interactive Engagement ",
+    img:"assets\\images\\explore.png",
   },
   {
     id: 6,
-    cover: "../images/l6.svg",
+    cover: "../images/s6.jpg",
+    title:" Unleashing Creative Potential",
+    img:"assets\\images\\explore.png",
+    
   },
 ]
 export const blogdata = [
   {
     id: 1,
-    title: "Ligula vel urna accumsan placerat",
+    title: "Unlock your Potential with us",
     cover: "../images/b1.webp",
     catgeory: "INDUSTRY",
     date: "JANUARY 12, 2023",
   },
-  {
-    id: 2,
-    title: "Don’t underestimate the lorem ipsum dolor amet",
-    cover: "../images/b2.jpg",
-    catgeory: "TIPS & TRICKS",
-    date: "OCTOBER 20, 2023",
-  },
-  {
-    id: 3,
-    title: "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
-    cover: "../images/b3.jpg",
-    catgeory: "TIPS & TRICKS",
-    date: "OCTOBER 9, 2023",
-  },
-  {
-    id: 4,
-    title: "What eleifend posuere tincidunt",
-    cover: "../images/b4.jpg",
-    catgeory: "EVENTS",
-    date: "OCTOBER 8, 2023",
-  },
+  
 ]
 export const teamdata = [
   {
     id: 1,
-    title: "Alexander Black",
-    cover: "../images/t1.jpg",
-    post: "FOUNDER, CEO",
+    title: "Nomaan Arshad",
+    cover: "../images/nooman.jpg",
+    post: "Co-Founder, CEO",
   },
   {
     id: 2,
-    title: "Anna Kovalenko",
-    cover: "../images/t2.jpg",
-    post: "FINANCE DIRECTOR",
+    title: "Amogavarsha N.R",
+    cover: "../images/amoga.jpg",
+    post: "Co-Founder, CTO",
   },
   {
     id: 3,
-    title: "Tiffany White",
-    cover: "../images/t3.jpg",
-    post: "CREATIVE DIRECTOR",
+    title: "Om Prakash Meher",
+    cover: "../images/om.jpg",
+    post: "Co-Founder, CFO",
   },
   {
     id: 4,
-    title: "Richard Greenwood",
-    cover: "../images/t4.jpg",
-    post: "PROGRAMMER",
+    title: "Gaurav Kumar Singh",
+    cover: "../images/gauravjpg.jpg",
+    post: "Co-Founder, CMO",
   },
   {
     id: 5,
-    title: "Jessica Brown",
-    cover: "../images/t5.jpg",
-    post: "MARKETING DIRECTOR",
+    title: "Fiona Mascarenhas",
+    cover: "../images/fiona.jpg",
+    post: "CNO",
   },
   {
     id: 6,
-    title: "Gregory Windstorm",
-    cover: "../images/t6.jpg",
-    post: "ACCOUNTING MANAGER",
+    title: "Vishal Yashwant Bhoye",
+    cover: "../images/vishal.jpg",
+    post: "Design Lead",
   },
-  {
-    id: 7,
-    title: "Anna Red",
-    cover: "../images/t7.jpg",
-    post: "PROJECT MANAGER",
-  },
-  {
-    id: 8,
-    title: "Join our team!",
-    cover: "../images/t8.jpg",
-    post: "",
-  },
+ 
 ]

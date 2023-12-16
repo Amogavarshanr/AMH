@@ -25,22 +25,35 @@ const SinglePost = () => {
               <img src={post.cover} alt={post.title} width='100%' height='100%' className='round' />
             </div>
             <div className='desc'>
-              <TitleSm title='Phasellus at magna - elit tristique lacinia. Integer a justo vitae arcu fermentum consequat.' />
-              <p className='desc-p'> Nulla iaculis convallis fermentum. Suspendisse eget elit mauris. Phasellus velit nisi, lobortis quis nisi et, venenatis finibus velit. Integer non nibh eget arcu malesuada ullamcorper. Quisque congue ante in consequat auctor. Morbi ut accumsan eros. Mauris semper suscipit mattis. Cras pellentesque a urna ac dictum. Pellentesque blandit, sapien vel faucibus accumsan, ante dui imperdiet nisi, ut tincidunt nulla tortor nec purus.</p>
-              <p className='desc-p'>Suspendisse eget elit mauris. Phasellus velit nisi, lobortis quis nisi et, venenatis finibus velit. Integer non nibh eget arcu malesuada ullamcorper.</p>
-              <p className='desc-p'>Quisque congue ante in consequat auctor. Morbi ut accumsan eros. Mauris semper suscipit mattis. Cras pellentesque a urna ac dictum. Pellentesque blandit, sapien vel faucibus accumsan, ante dui imperdiet nisi, ut tincidunt nulla tortor nec purus.</p>
+              <TitleSm title='Building buisness through digital marketing.' />
+              <p className='desc-p'> In today's fast-paced and technologically driven world, the success of any business hinges on its ability to adapt and thrive in the digital landscape. Traditional marketing methods are no longer sufficient to reach a broad audience and engage potential customers. Enter digital marketing – a powerful tool that not only opens new doors but also transforms the way businesses connect with their target audience.</p>
+              
             </div>
           </div>
           <Banner />
 
           <div className='heading-title'>
             <div className='desc'>
-              <TitleSm title='Integer a justo vitae arcu fermentum...' />
+              <TitleSm title='The Digital Advantage...' />
 
-              <p className='desc-p'> Phasellus nec tempor neque. In nec finibus lorem, in aliquet risus. Proin elit elit, cursus vel vulputate at, volutpat quis metus. Praesent at blandit tellus.</p>
-              <p className='desc-p'>Morbi finibus velit erat, a pulvinar lacus mollis sit amet. Nulla iaculis convallis fermentum. Suspendisse eget elit mauris. Phasellus velit nisi, lobortis quis nisi et, venenatis finibus velit. Integer non nibh eget arcu malesuada ullamcorper! Quisque congue ante in consequat auctor. Morbi ut accumsan eros. Mauris semper suscipit mattis. Cras pellentesque a urna ac dictum. Pellentesque blandit, sapien vel faucibus accumsan, ante dui imperdiet nisi, ut tincidunt nulla tortor nec purus.</p>
-              <p className='desc-p'>Suspendisse eget elit mauris. Phasellus velit nisi, lobortis quis nisi et, venenatis finibus velit. Integer non nibh eget arcu malesuada ullamcorper.</p>
-              <p className='desc-p'>Quisque congue ante in consequat auctor. Morbi ut accumsan eros. Mauris semper suscipit mattis. Cras pellentesque a urna ac dictum. Pellentesque blandit, sapien vel faucibus accumsan, ante dui imperdiet nisi, ut tincidunt nulla tortor nec purus.</p>
+              <p className='desc-p'> 1. Global Reach:
+One of the primary benefits of digital marketing is its ability to break down geographical barriers. With a well-crafted online strategy, businesses can reach audiences far beyond their local market. Social media platforms, search engines, and email marketing enable businesses to connect with potential customers worldwide, expanding their reach exponentially..</p>
+<p className='desc-p'>
+
+
+In today's fast-paced and technologically driven world, the success of any business hinges on its ability to adapt and thrive in the digital landscape. Traditional marketing methods are no longer sufficient to reach a broad audience and engage potential customers. Enter digital marketing – a powerful tool that not only opens new doors but also transforms the way businesses connect with their target audience.
+
+The Digital Advantage
+1. Global Reach:
+One of the primary benefits of digital marketing is its ability to break down geographical barriers. With a well-crafted online strategy, businesses can reach audiences far beyond their local market. Social media platforms, search engines, and email marketing enable businesses to connect with potential customers worldwide, expanding their reach exponentially.
+
+2. Cost-Effectiveness:
+Digital marketing offers a cost-effective alternative to traditional advertising. Small and medium-sized enterprises, in particular, can allocate their budgets more efficiently by leveraging online channels. Pay-per-click (PPC) advertising, social media promotions, and email campaigns allow businesses to target specific demographics, ensuring that resources are used wisely.</p>
+<p className='desc-p'>3. Data-Driven Decision Making:
+In the digital realm, data is king. Through analytics tools, businesses can track and measure the performance of their marketing efforts in real-time. This wealth of data enables informed decision-making, helping companies refine their strategies, optimize campaigns, and allocate resources where they yield the best results.</p>
+<p className='desc-p'></p>
+<p className='desc-p'></p>
+              
             </div>
           </div>
         </div>

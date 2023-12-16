@@ -12,13 +12,14 @@ const Hero = () => {
     <>
       <section className='hero'>
         <div className='container'>
-          <TitleLogo title='creative' caption='7' className='logobg' />
+          <TitleLogo title='MH' caption='A' className='logobg' />
           <h1 className='hero-title'>WE BUILD DIGITAL EXPERIENCES</h1>
 
           <div className='sub-heading'>
             <TitleSm title='WEBSITES' /> <span>.</span>
             <TitleSm title='BRANDING' /> <span>.</span>
-            <TitleSm title='DIGITAL MARKETING' />
+            <TitleSm title='DIGITAL MARKETING' /><span>.</span>
+            <TitleSm title='AI SOLUTIONS'/>
           </div>
         </div>
       </section>
@@ -26,7 +27,7 @@ const Hero = () => {
         <div className='container'>
           <div className='heading-title'>
             <Title title='The last digital agency you ll ever need' />
-            <p>Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. Vivamus a ligula ut velit placerat egestas at id leo. Nulla ac volutpat nunc. Nulla facilisi. Pellentesque tempus tellusut magna porttitor scelerisque.</p>
+            <p>Welcome to the creative journey of modern marketing. Explore the uncharted territories of digital innovation and unleash your creative potential to captivate audiences in the digital age.</p>
           </div>
           <div className='hero-content grid-4'>
             {home.map((item, i) => (
@@ -42,7 +43,7 @@ const Hero = () => {
       <Expertise />
       <Banner />
       <Testimonial />
-      <ShowCase />
+      
       <Brand />
 
       <div className='text-center'>

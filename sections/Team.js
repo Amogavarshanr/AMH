@@ -3,7 +3,7 @@ import { Card } from "@/components/common/Card"
 import { Title, TitleSm } from "@/components/common/Title"
 import team from "@/pages/team"
 import React from "react"
-
+import { Ncard } from "@/components/common/Ncard"
 const Team = () => {
   return (
     <>
@@ -12,11 +12,12 @@ const Team = () => {
           <div className='heading-title'>
             <TitleSm title='MEET OUR TEAM' /> <br />
             <br />
-            <Title title='A team of smart & passionate creatives' className='title-bg' />
+            <Title title='A team of smart & passionate creatives' className='title-bg' /><br></br>
+            <TitleSm title='FOUNDERS CIRCLE' /> 
           </div>
           <div className='grid-4 py'>
             {teamdata.map((item) => (
-              <Card data={item} key={item.id} caption={item.post} />
+              <Ncard data={item} key={item.id} caption={item.post} />
             ))}
           </div>
         </div>

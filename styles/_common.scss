@@ -1,11 +1,40 @@
 @import "function";
 
+@keyframes bounceAnimation {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+.sub-heading {
+  animation: bounceAnimation 3s infinite; /* Apply the bounce animation */
+}
+.hero-title {
+  font-size: $xl-5;
+  font-weight: 500;
+  &:hover {
+    color: $green; // Change the color to your desired animation effect
+    transition: color 0.5s ease-in-out; // Add a smooth transition effect
+    transform: translateX(10px) scale(1.1);
+  }
+}
+
 .title-logo {
   font-size: $xl-6;
   -webkit-text-stroke: 1px $white;
   color: transparent;
   span {
-    font-size: $xl-5;
+    font-size: 46px;
     -webkit-text-stroke: $green;
     color: $green;
   }
@@ -13,7 +42,7 @@
 .logobg {
   font-size: $xll;
   span {
-    font-size: 50px;
+    font-size: 70px;
   }
 }
 .titleSm {
@@ -36,6 +65,13 @@
 }
 .secondary-button,
 .button-primary {
+  transition: transform 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(to right, #3498db, #2980b9); /* Change background gradient on hover */
+    color: $white;
+  }
+
   text-transform: capitalize;
   color: $dark;
   padding: 13px 40px;
@@ -71,6 +107,11 @@
   }
 }
 .card {
+  transition: transform 0.3s ease-in-out, background-image 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(to bottom, #3e0429, #4d0631);}
+
   h1 {
     transition: 0.5s;
     &:hover {
@@ -155,4 +196,5 @@
     max-width: 100%;
     padding: 50px 0;
   }
+  
 }
